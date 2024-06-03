@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+
+   
+    <div class="container">
+        <h1 id= "title">Survey Form</h1>
+    
+        <div class="row">
+
+  
+                <form id="survey-form">
+                  <label for="name" id="required"><strong>Name</strong></label>
+                  <div class="row">
+                  
+                    <div class="col-md-6">
+                      
+                        <div class="form-group">
+                          
+                            <input type="text" class="form-control">
+                            <label for="name">First</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                         
+                            <input type="text" class="form-control">
+                            <label for="name">Last</label>
+                        </div>
+                    </div>
+                </div>
+                    <div class="form-group">
+                        <label for="email" id="required"><strong>Email</strong></label>
+                        <input type="email" class="form-control" placeholder="Enter email" id="email">
+                    </div>
+                    <p class="experience" id="required" ><strong>Your Experience</strong></p>
+    
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <p>Overall how would you rate your experience with us?</p>
+
+                    <div class="full-table">
+                        <p id="required"><strong>How satisfied are you with</strong></p>            
+                        <table class="table table-striped">
+                          <thead>
+                            <tr>
+                              <th></th>
+                              <th>Very Unsatisfied</th>
+                              <th>Unsatisfied</th>
+                              <th>Neutral</th>
+                              <th>satisfied</th>
+                              <th>Very Satisfied</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>Purchase</td>
+                              <td> <input class="form-check-input" type="radio" name="survey" id="survey"> </td>
+                              <td> <input class="form-check-input" type="radio" name="survey" id="survey"> </td>
+                              <td> <input class="form-check-input" type="radio" name="survey" id="survey"> </td>
+                              <td> <input class="form-check-input" type="radio" name="survey" id="survey"> </td>
+                              <td> <input class="form-check-input" type="radio" name="survey" id="survey"> </td>
+                            </tr>
+                            <tr>
+                                <td>Service</td>
+                                <td> <input class="form-check-input" type="radio" name="survey" id="survey"> </td>
+                                <td> <input class="form-check-input" type="radio" name="survey" id="survey"> </td>
+                                <td> <input class="form-check-input" type="radio" name="survey" id="survey"> </td>
+                                <td> <input class="form-check-input" type="radio" name="survey" id="survey"> </td>
+                                <td> <input class="form-check-input" type="radio" name="survey" id="survey"> </td>
+                            </tr>
+                            <tr>
+                                <td>Company Overall</td>
+                                <td> <input class="form-check-input" type="radio" name="survey" id="survey"> </td>
+                                <td> <input class="form-check-input" type="radio" name="survey" id="survey"> </td>
+                                <td> <input class="form-check-input" type="radio" name="survey" id="survey"> </td>
+                                <td> <input class="form-check-input" type="radio" name="survey" id="survey"> </td>
+                                <td> <input class="form-check-input" type="radio" name="survey" id="survey"> </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <p id="required"><strong>How Likely are you to</strong></p>
+                        <table class="table table-striped">
+                            <thead>
+                              <tr>
+                                <th></th>
+                                <th>Very UnLikely</th>
+                                <th>UnLikely</th>
+                                <th>Neutral</th>
+                                <th>Likely</th>
+                                <th>Very Likely</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>Buy from us</td>
+                                <td> <input class="form-check-input" type="radio" name="survey" id="survey"> </td>
+                                <td> <input class="form-check-input" type="radio" name="survey" id="survey"> </td>
+                                <td> <input class="form-check-input" type="radio" name="survey" id="survey"> </td>
+                                <td> <input class="form-check-input" type="radio" name="survey" id="survey"> </td>
+                                <td> <input class="form-check-input" type="radio" name="survey" id="survey"> </td>
+                              </tr>
+                              <tr>
+                                  <td>Recommend our <br>product to others</td>
+                                  <td> <input class="form-check-input" type="radio" name="survey" id="survey"> </td>
+                                  <td> <input class="form-check-input" type="radio" name="survey" id="survey"> </td>
+                                  <td> <input class="form-check-input" type="radio" name="survey" id="survey"> </td>
+                                  <td> <input class="form-check-input" type="radio" name="survey" id="survey"> </td>
+                                  <td> <input class="form-check-input" type="radio" name="survey" id="survey"> </td>
+                              </tr>
+                              <tr>
+                                  <td>Recommend our<br> company to others</td>
+                                  <td> <input class="form-check-input" type="radio" name="survey" id="survey"> </td>
+                                  <td> <input class="form-check-input" type="radio" name="survey" id="survey"> </td>
+                                  <td> <input class="form-check-input" type="radio" name="survey" id="survey"> </td>
+                                  <td> <input class="form-check-input" type="radio" name="survey" id="survey"> </td>
+                                  <td> <input class="form-check-input" type="radio" name="survey" id="survey"> </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                      </div>
+                      
+      
+                      
+
+                      <div class="form-group">
+                        <label for="comment"><strong>Additional comments or suggestions?</strong></label>
+                        <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+                      </div>
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+
+           
+        </div>
+    </div>
+ <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="./js/script.js"></script>
+
+</body>
+</html>
